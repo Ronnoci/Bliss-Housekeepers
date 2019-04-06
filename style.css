@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.80;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url(https://cdn.pixabay.com/photo/2018/07/27/00/32/apartment-3564955_1280.jpg);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/28/12/10/chairs-2181947__480.jpg);
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url(https://images.pexels.com/photos/1027508/pexels-photo-1027508.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+  line-height: 3.8rem;
+}
+
+.phone:hover {
+  background: black;
+  color: white;
+}
+
+.img a {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  padding: 1rem;
+}
+
+.img a:hover {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.nav a {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #ddd;
+}
+
+.nav a:hover {
+  -webkit-filter: none;
+          filter: none;
+  color: white;
+  background-color: #000;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 140px;
+}
+
+@media (max-width: 568px) {
+  .pimg1, .pimg2, .pimg3 {
+    background-attachment: scroll;
+  }
+  .ptext .border {
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: .6rem;
+  }
+  .ptext a {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
